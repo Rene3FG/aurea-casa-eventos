@@ -7,7 +7,7 @@ const AUREA_I18N = {
       description: "Venue para bodas y celebraciones íntimas en el Centro Histórico de Oaxaca, frente al Templo de Santo Domingo de Guzmán. Hasta 130 invitados."
     },
     nav: { inicio: "Inicio", espacio: "El espacio", contacto: "Contacto", cta: "Haga una cita" },
-    hero: { title: "El escenario perfecto para su boda", subtitle: "Un venue frente a Santo Domingo" },
+    hero: { titleLine1: "El escenario perfecto", titleLine2: "para su boda", subtitle: "Un venue frente a Santo Domingo" },
     intro: {
       p1: "Declarado Zona de Monumentos Históricos en 1976 y Patrimonio de la Humanidad por la UNESCO en 1987, este espacio se encuentra frente al imponente Templo de Santo Domingo de Guzmán.",
       p2: "Hoy, ese mismo lugar que ha guardado siglos de historia se abre para guardar la suya."
@@ -69,7 +69,7 @@ const AUREA_I18N = {
       description: "An intimate wedding and event venue in Oaxaca's Historic Center, facing the Templo de Santo Domingo de Guzmán. Up to 130 guests."
     },
     nav: { inicio: "Home", espacio: "The venue", contacto: "Contact", cta: "Book a visit" },
-    hero: { title: "The perfect setting for your wedding", subtitle: "A venue facing Santo Domingo" },
+    hero: { titleLine1: "The perfect setting", titleLine2: "for your wedding", subtitle: "A venue facing Santo Domingo" },
     intro: {
       p1: "Declared a Historic Monuments Zone in 1976 and a UNESCO World Heritage Site in 1987, this space sits right across from the imposing Templo de Santo Domingo de Guzmán.",
       p2: "Today, that same place that has held centuries of history opens up to hold yours."

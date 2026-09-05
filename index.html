@@ -81,8 +81,10 @@
 </header>
 
 <section class="hero" id="inicio">
-<img src="/assets/hero-mobile.webp" alt="Celebración íntima en el patio de Aurea" width="900" height="1200" fetchpriority="high"
-     srcset="/assets/hero-mobile.webp 900w, /assets/hero.webp 1920w" sizes="100vw"/>
+<picture>
+<source media="(max-width: 760px)" srcset="/assets/hero-mobile.webp"/>
+<img src="/assets/hero.webp" alt="Celebración íntima en el patio de Aurea" width="1920" height="1280" fetchpriority="high"/>
+</picture>
 <div class="hero-shade"></div>
 <div class="hero-copy">
 <h1><span data-i18n="hero.titleLine1">El escenario perfecto</span> <span data-i18n="hero.titleLine2">para su boda</span></h1>

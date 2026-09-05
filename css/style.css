@@ -108,8 +108,8 @@ img,video { max-width:100%; display:block }
 
 /* hero */
 .hero { color:#fff; min-height:min(900px,100svh); position:relative; overflow:hidden }
-.hero>img,.image-title>img { object-fit:cover; width:100%; height:100%; position:absolute; inset:0 }
-.hero>img { object-position:center 45% }
+.hero>picture,.hero>picture>img,.image-title>img { object-fit:cover; width:100%; height:100%; position:absolute; inset:0; display:block }
+.hero>picture>img { object-position:center 45% }
 .hero-shade,.image-shade {
   background:linear-gradient(#0000002e,#00000014 45%,#00000085);
   position:absolute; inset:0;
@@ -268,7 +268,7 @@ footer { color:var(--ivory); background:var(--green); padding:clamp(58px,7vw,92p
   .language { padding:6px 9px; font-size:11px }
   .header-actions { gap:5px }
   .hero { min-height:100svh }
-  .hero>img { object-position:center 50% }
+  .hero>picture>img { object-position:center 50% }
   .hero-shade { display:none }
   .hero-copy { align-items:flex-start; justify-content:center; text-align:left; padding:62px 22px 0; gap:10px }
   .hero h1 { font-weight:300; letter-spacing:0; text-transform:none; max-width:100%; font-size:min(8.4vw,42px); line-height:1.06; text-align:left }
